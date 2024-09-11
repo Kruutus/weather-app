@@ -1,0 +1,15 @@
+$background-blue: linear-gradient(180deg, #7CB9E8 0%, #A3D4FA 100%);
+$outer-top-padding: 6.66875rem;
+$outer-height: calc(100vh - $outer-top-padding);
+
+#root {
+    background: $background-blue;
+    height: $outer-height;
+    padding-top: $outer-top-padding;
+}
+
+.outer-box {
+    height: $outer-height;
+    max-width: 800px;
+    margin: 0 auto;
+}
